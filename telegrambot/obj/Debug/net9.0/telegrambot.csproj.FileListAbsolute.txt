@@ -1,0 +1,17 @@
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegrambot.csproj.AssemblyReference.cache
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegrambot.GeneratedMSBuildEditorConfig.editorconfig
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegrambot.AssemblyInfoInputs.cache
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegrambot.AssemblyInfo.cs
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegrambot.csproj.CoreCompileInputs.cache
+C:\telegrambot\telegrambot\bin\Debug\net9.0\telegrambot.exe
+C:\telegrambot\telegrambot\bin\Debug\net9.0\telegrambot.deps.json
+C:\telegrambot\telegrambot\bin\Debug\net9.0\telegrambot.runtimeconfig.json
+C:\telegrambot\telegrambot\bin\Debug\net9.0\telegrambot.dll
+C:\telegrambot\telegrambot\bin\Debug\net9.0\telegrambot.pdb
+C:\telegrambot\telegrambot\bin\Debug\net9.0\Telegram.Bot.dll
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegram.C7BE2EC6.Up2Date
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegrambot.dll
+C:\telegrambot\telegrambot\obj\Debug\net9.0\refint\telegrambot.dll
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegrambot.pdb
+C:\telegrambot\telegrambot\obj\Debug\net9.0\telegrambot.genruntimeconfig.cache
+C:\telegrambot\telegrambot\obj\Debug\net9.0\ref\telegrambot.dll
