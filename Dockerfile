@@ -1,13 +1,16 @@
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+# Use .NET SDK as base image
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-WORKDIR /src
+# Copy project files and restore dependencies
 COPY . .
-RUN dotnet restore "TelegramBot.csproj"
-RUN dotnet publish "TelegramBot.csproj" -c Release -o /app/publish
+RUN dotnet restore
+RUN dotnet build --configuration Release --no-restore
 
-FROM base AS final
+# Use .NET runtime image for final execution
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
-COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "TelegramBot.dll"]
+COPY --from=build /app/bin/Release/net9.0/ ./
+
+# Define the entry point for the application
+CMD ["dotnet", "telegrambot.dll"]
